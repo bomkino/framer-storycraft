@@ -1,0 +1,6 @@
+interface:
+  display_name: "Framer Storycraft"
+  short_description: "Story-led Framer sites with taste and proof"
+  default_prompt: "Use $framer-storycraft to shape and build this Framer site around its real audience, content, and constraints."
+policy:
+  allow_implicit_invocation: true
