@@ -10,18 +10,25 @@ project instead of cloning pitch.dog’s surface style.
 
 ## Install
 
-[Open the install page](https://skills.sh/bomkino/framer-storycraft), or use the
-Skills CLI:
+[Open the install page](https://skills.sh/bomkino/framer-storycraft/framer-storycraft),
+or use the Skills CLI:
 
 ```bash
-npx skills add bomkino/framer-storycraft -a codex
+npx skills add https://github.com/bomkino/framer-storycraft --skill framer-storycraft -a codex -y
 ```
 
 Install globally for compatible local agents:
 
 ```bash
-npx skills add bomkino/framer-storycraft -a codex -g
+npx skills add https://github.com/bomkino/framer-storycraft --skill framer-storycraft -g -a codex -y
 ```
+
+For a ChatGPT workspace, download
+[`framer-storycraft-v1.0.0.zip`](https://github.com/bomkino/framer-storycraft/releases/download/v1.0.0/framer-storycraft-v1.0.0.zip),
+then go to **Plugins → Skills → Create → Upload from your computer**. A GitHub
+link is not a one-click ChatGPT installer. Personal Skills must currently be
+added separately on desktop and web/mobile. See
+[OpenAI’s Skills guide](https://help.openai.com/en/articles/20001066).
 
 ## Use
 
