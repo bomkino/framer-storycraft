@@ -24,7 +24,7 @@ npx skills add https://github.com/bomkino/framer-storycraft --skill framer-story
 ```
 
 For a ChatGPT workspace, download
-[`framer-storycraft-v1.0.0.zip`](https://github.com/bomkino/framer-storycraft/releases/download/v1.0.0/framer-storycraft-v1.0.0.zip),
+[`framer-storycraft-v1.0.1.zip`](https://github.com/bomkino/framer-storycraft/releases/download/v1.0.1/framer-storycraft-v1.0.1.zip),
 then go to **Plugins → Skills → Create → Upload from your computer**. A GitHub
 link is not a one-click ChatGPT installer. Personal Skills must currently be
 added separately on desktop and web/mobile. See
