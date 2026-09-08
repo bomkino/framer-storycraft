@@ -129,10 +129,19 @@ PUBLISH AUTHORITY
 Use:
 
 ```text
-READ → REPORT → MAP → APPROVAL GATE → APPLY SMALL BATCH → INSPECT EVIDENCE → REVIEW
+READ → REPORT → MAP → CHECK AUTHORITY → APPLY SMALL BATCH → INSPECT EVIDENCE → REVIEW
 ```
 
-Stop on target mismatch, missing or contradictory source, blocked specimens, destructive ambiguity, unsupported tool operations, private-content exposure, inaccessible fallbacks, or unclear publish authority. Do not build a plausible lookalike when the exact approved object is missing.
+Use the current request and prior authorization for the named target and change.
+Ask only when authority is missing or the next action materially expands scope;
+an already authorized batch does not need another approval.
+
+Stop the affected mutation on target mismatch, missing or contradictory required
+source, blocked specimens, destructive ambiguity, unsupported tool operations,
+private-content exposure, or inaccessible fallbacks. Continue independent,
+authorized work. Unclear publish authority blocks publishing, not local or
+preview work already in scope. Do not build a plausible lookalike when the exact
+approved object is missing.
 
 ### 8. Prove real use
 

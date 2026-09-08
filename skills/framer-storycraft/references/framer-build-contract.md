@@ -154,9 +154,15 @@ SOURCE · TARGET · OPERATION · BOUNDARY · GATES · EVIDENCE · STOP · PUBLIS
 Follow:
 
 ```text
-READ → REPORT → MAP → APPROVAL GATE → APPLY SMALL BATCH → EVIDENCE → REVIEW
+READ → REPORT → MAP → CHECK AUTHORITY → APPLY SMALL BATCH → EVIDENCE → REVIEW
 ```
 
-Stop on missing or contradictory sources, mismatched live structure, blocked
-specimens, destructive ambiguity, private-content exposure, inaccessible fallback,
-unsupported tool behaviour, or unclear publish authority.
+Existing authorization covers the named target and operation. Do not ask again
+for an already authorized batch; ask when the next operation lacks authority or
+materially expands scope.
+
+Stop the affected mutation on missing or contradictory required sources,
+mismatched live structure, blocked specimens, destructive ambiguity,
+private-content exposure, inaccessible fallback, or unsupported tool behaviour.
+Continue independent authorized work. Unclear publish authority blocks
+publishing; it does not block a requested local or preview edit.
