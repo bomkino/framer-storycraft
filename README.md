@@ -23,12 +23,12 @@ Install globally for compatible local agents:
 npx skills add https://github.com/bomkino/framer-storycraft --skill framer-storycraft -g -a codex -y
 ```
 
-For a ChatGPT workspace, download
-[`framer-storycraft-v1.0.1.zip`](https://github.com/bomkino/framer-storycraft/releases/download/v1.0.1/framer-storycraft-v1.0.1.zip),
-then go to **Plugins → Skills → Create → Upload from your computer**. A GitHub
-link is not a one-click ChatGPT installer. Personal Skills must currently be
-added separately on desktop and web/mobile. See
-[OpenAI’s Skills guide](https://help.openai.com/en/articles/20001066).
+For ChatGPT, download the ZIP and `SHA256SUMS` from the
+[latest release](https://github.com/bomkino/framer-storycraft/releases/latest),
+then open **Plugins → Skills → Create → Upload from your computer**. Review the
+scan and confirm the skill is available in the client you intend to use.
+Availability, installation, and syncing vary by product, surface, and workspace
+settings. See [OpenAI’s Skills guide](https://help.openai.com/en/articles/20001066).
 
 ## Use
 
@@ -41,7 +41,10 @@ $framer-storycraft Debug this sticky scene and design its reduced-motion result.
 ```
 
 The skill may also activate implicitly when the host supports implicit
-invocation and the request clearly concerns Framer website work.
+invocation and the request clearly concerns Framer website work. Existing
+authorization covers the same action, target, and scope; a missing permission
+blocks only the operation that depends on it. Publication still needs explicit
+authority and result readback.
 
 ## What is included
 
