@@ -1,14 +1,6 @@
 ---
 name: framer-storycraft
-description: >
-  Design, build, revise, audit, debug, or prepare original websites in Framer
-  using pitch.dog's story-first, native-first method. Use for new or existing
-  Framer sites, information architecture, page narratives, visual systems,
-  responsive composition, Canvas components, CMS, bounded code components,
-  scroll and motion scenes, accessibility, performance, external-agent changes,
-  migrations, and pre-publish QA. Derive each project's visual language from
-  its own audience, content, evidence, and brand; never import pitch.dog's
-  palette, typography, dogs, routes, components, or choreography by default.
+description: "Design and build Framer sites around their story, audience, and brand. Use for site structure, visual direction, responsive builds, audits, repairs, or release preparation."
 ---
 
 # Framer Storycraft
